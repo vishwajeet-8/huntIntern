@@ -32,9 +32,9 @@ import puppeteer from "puppeteer";
 
   const url = page.url();
   if (url === urlWithParams) {
-    console.log("Login test passed");
+    console.log("data send successfully");
   } else {
-    console.log("Login test failed");
+    console.log("data not send");
   }
   // Close the browser
   await browser.close();
